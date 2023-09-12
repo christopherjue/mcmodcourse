@@ -1,49 +1,179 @@
 package net.christopher;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
 
-        String[] questions = new String[3];
-        questions[0] = "How many states does the USA have?";
-        questions[1] = "what is the capital of the United Kingdom";
-        questions[2] = "What is the chemical symbol for Iron?";
 
 
-        String[] answer = new String[3];
-        answer[0] = "50";
-        answer[1] = "london";
-        answer[2] = "Fe";
-
-        for (int i = 0; i < 100; i++) {
-            System.out.println(i);
-        }
 
 
-        for (int i = 0; i < questions.length; i++) {
-            System.out.println(questions[i]);
-            System.out.println(answer[i]);
-        }
-
-        for (String question : questions) {
-            System.out.println(question);
-        }
 
 
-        Scanner scanner = new Scanner((System.in));
-        while (true) {
-            System.out.println("do you want to continue");
-            if (scanner.next().equals("yes")) {
-                continue;
-            }else {
-                break;
-            }
 
-        }
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }}
+
+
+
+//        int score = 0;
+//
+//
+//        Scanner S1 = new Scanner(System.in);
+//
+//
+//        String[] que = new String[5];
+//        que[0] = "What is the used to craft item frames in minecraft?";
+//        que[1] = "what mod is needed to be slain to beat the game in the overworld";
+//        que[2] = "What is the name of the dimension in Minecraft where players encounters the Ender Dragon?";
+//        que[3] = "what is the rarest armor and tools to get in minecraft";
+//        que[4] = "what are the chances of getting a 32 vien of diamonds";
+//
+//        String[] correctAnswers = new String[5];
+//
+//        correctAnswers[0] = "8 sticks and leather";
+//        correctAnswers[1] = "enderman";
+//        correctAnswers[2] = "The end";
+//        correctAnswers[3] = "netherite";
+//        correctAnswers[4] = "0.000000002623994%";
+//
+//        String[] usersAnswers = new String[5];
+//        for (int i = 0; i < que.length; i++) {
+//            System.out.println(que[i]);
+//            //System.out.println(correctAnswers[i]);
+//            usersAnswers[i] = S1.nextLine();
+//            if (correctAnswers[i].equals(usersAnswers[i])) {
+//                System.out.println("correct");
+//                score++;
+//            } else {
+//                System.out.println("wrong");
+//            }
+//        }
+//
+//
+//        outputQuestionsAndAnswers(que, correctAnswers, usersAnswers);
+//        //System.out.println(sum(10, 12));
+//    }
+//
+//    public static void outputQuestionsAndAnswers(String[] que, String[] ans, String[] userans) {
+//        for (int i = 0; i < que.length; i++) {
+//            System.out.println(que[i]);
+//            System.out.println(ans[i]);
+//        }
+//    }
+//
+//
+//    {
+//        Scanner scanner = new Scanner((System.in));
+//        while (true) {
+//            System.out.println("do you want to continue");
+//            if (scanner.next().equals("yes")) {
+//                continue;
+//            } else {
+//                break;
+//            }
+//
+//        }
+//
+//
+//    }
+//
+//}
+//
+
+//
+//
+//        String[] que = new String[3];
+//        que[0] = "How many states does the USA have?";
+//        que[1] = "what is the capital of the United Kingdom";
+//        que[2] = "What is the chemical symbol for Iron?";
+//
+//        String[] ans = new String[3];
+//        ans[0] = "50";
+//        ans[1] = "london";
+//        ans[2] = "Fe";
+//
+//
+//        outputQuestionsAndAnswers(que, ans);
+//        System.out.println(sum(10, 12));
+//
+//    }
+//
+//
+//    public static void outputQuestionsAndAnswers(String[] question, String[] answers) {
+//        for (int i = 0; i < question.length; i++) {
+//
+//            System.out.println(question[i]);
+//            System.out.println(answers[i]);
+//        }
+//
+//
+//    }
+//
+//    public static int sum(int x, int y) {
+//        return x + y;
+//    }
+
+
+//        String[] questions = new String[3];
+//        questions[0] = "How many states does the USA have?";
+//        questions[1] = "what is the capital of the United Kingdom";
+//        questions[2] = "What is the chemical symbol for Iron?";
+//
+//
+//        String[] answer = new String[3];
+//        answer[0] = "50";
+//        answer[1] = "london";
+//        answer[2] = "Fe";
+//
+//        for (int i = 0; i < 100; i++) {
+//            System.out.println(i);
+//        }
+//
+//
+//        for (int i = 0; i < questions.length; i++) {
+//            System.out.println(questions[i]);
+//            System.out.println(answer[i]);
+//        }
+//
+//        for (String question : questions) {
+//            System.out.println(question);
+//        }
+//
+//
+//        Scanner scanner = new Scanner((System.in));
+//        while (true) {
+//            System.out.println("do you want to continue");
+//            if (scanner.next().equals("yes")) {
+//                continue;
+//            }else {
+//                break;
+//            }
+//
+//        }
 
 
 //        String question1 = "How many states does the USA have?";
@@ -173,7 +303,7 @@ public class Main {
 //        }
 //        //----------------------------------------------
 //        Scanner S2 = new Scanner(System.in);
-//        System.out.println("what was the first shadder ever created  : ");
+//        System.out.println("what was the first Shader ever created  : ");
 //        String v3 = Scanner.nextLine();
 //        String a3 = "GLSL";
 //
